@@ -5,6 +5,7 @@ import NotFound from "pages/NotFound";
 import Signup from "pages/Signup";
 import Home1 from "pages/Home1";
 import Events from "pages/Events";
+import AddEvent from "pages/AddEvent"
 import SingleEvent from "pages/SingleEvent";
 import Settings from "pages/Settings";
 import SearchResults from "pages/SearchResults";
@@ -36,6 +37,10 @@ const ProjectRoutes = () => {
     {
       path: "settings",
       element: <Settings />,
+    },
+    {
+      path: "addevent",
+      element: <AddEvent />,
     },
   ]);
 
