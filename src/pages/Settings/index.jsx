@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import { Heading, Button, Img, SelectBox, Input } from "../../components";
+import { Heading, Button, Img, Input } from "../../components";
+import { SelectBox } from "../../components/SelectBox";
 import DirectMessageProfile3 from "../../components/DirectMessageProfile3";
 import StoriesNotifications from "../../components/StoriesNotifications";
 
@@ -14,7 +15,7 @@ export default function SettingsPage() {
   return (
     <>
       <Helmet>
-        <title>Fight's Application1</title>
+        <title>Christian Kevin S 2's Application2</title>
         <meta name="description" content="Web site created using create-react-app" />
       </Helmet>
       <div className="flex flex-row justify-center w-full bg-gray-100">

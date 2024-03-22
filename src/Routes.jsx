@@ -6,6 +6,7 @@ import Signup from "pages/Signup";
 import Home1 from "pages/Home1";
 import Events from "pages/Events";
 import SingleEvent from "pages/SingleEvent";
+import Settings from "pages/Settings";
 import SearchResults from "pages/SearchResults";
 
 const ProjectRoutes = () => {
@@ -31,6 +32,10 @@ const ProjectRoutes = () => {
     {
       path: "searchresults",
       element: <SearchResults />,
+    },
+    {
+      path: "settings",
+      element: <Settings />,
     },
   ]);
 
