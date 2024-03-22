@@ -49,9 +49,11 @@ export default function SignupPage() {
                 <Img src="images/img_standard_collection.svg" alt="standard_one" className="h-[41px] w-[41px]" />
                 <div className="flex flex-col items-start justify-start mt-[50px] gap-3.5">
                   <a href="#">
+                  <Link to="/Home1">
                     <Heading size="xl" as="h2">
                       Create an account
                     </Heading>
+                    </Link>
                   </a>
                   <Text as="p">Sign up to continue </Text>
                 </div>
