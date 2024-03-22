@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { CloseSVG } from "../../assets/images";
-import { Img, Heading, Input } from "../../components";
+import { Img, Heading, Input, Button } from "../../components";
 import EventsCarddekstop from "../../components/EventsCarddekstop";
 import EventsCarddekstop1 from "../../components/EventsCarddekstop1";
 import EventsCarddekstop2 from "../../components/EventsCarddekstop2";
@@ -56,7 +56,7 @@ export default function EventsPage() {
             Events
           </Heading>
           <div className="flex flex-row justify-between items-start w-[62%] md:w-full mt-10">
-            <div className="flex flex-col items-center justify-start w-[13%] gap-1.5">
+            <div className="flex flex-col items-center justify-start w-[13%] gap-1.5 mb-4">
               <Heading as="h2">Anytime</Heading>
               <div className="h-[2px] w-[87%] bg-gray-900" />
             </div>
@@ -86,6 +86,10 @@ export default function EventsPage() {
               </Heading>
             </div>
           </div>
+
+          <Button color="light_blue_200" size="7xl" className="w-full sm:px-5 font-bold rounded-[29px]">
+            Add Event
+          </Button>
           <div className="flex flex-col items-center justify-start w-full mt-[42px] pb-[30px] sm:pb-5">
             <div className="flex flex-col items-center justify-start w-full">
               <div className="justify-center w-full gap-[30px] grid-cols-2 md:grid-cols-1 md:gap-5 grid">
