@@ -53,7 +53,7 @@ export default function EventsPage() {
             </Heading>
           </div>
           <Heading size="2xl" as="h2" className="mt-[59px]">
-            Events
+            Study Group
           </Heading>
           <div className="flex flex-row justify-between items-start w-[62%] md:w-full mt-10">
             <div className="flex flex-col items-center justify-start w-[13%] gap-1.5 mb-4">
@@ -86,11 +86,13 @@ export default function EventsPage() {
               </Heading>
             </div>
           </div>
+
           <Button color="light_blue_200" size="7xl" className="w-full sm:px-5 font-bold rounded-[29px]">
           <Link to="/AddEvent">
             Add Study Group
             </Link>
           </Button>
+
           <div className="flex flex-col items-center justify-start w-full mt-[42px] pb-[30px] sm:pb-5">
             <div className="flex flex-col items-center justify-start w-full">
               <div className="justify-center w-full gap-[30px] grid-cols-2 md:grid-cols-1 md:gap-5 grid">

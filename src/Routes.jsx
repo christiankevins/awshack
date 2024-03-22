@@ -9,6 +9,7 @@ import AddEvent from "pages/AddEvent"
 import SingleEvent from "pages/SingleEvent";
 import Settings from "pages/Settings";
 import SearchResults from "pages/SearchResults";
+import StudyGroup from "pages/StudyGroup"
 
 const ProjectRoutes = () => {
   let element = useRoutes([
@@ -41,6 +42,10 @@ const ProjectRoutes = () => {
     {
       path: "addevent",
       element: <AddEvent />,
+    },
+    {
+      path: "studygroup",
+      element: <StudyGroup />,
     },
   ]);
 
