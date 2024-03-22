@@ -4,7 +4,7 @@ import { Heading, Button, Img, Input } from "../../components";
 import { SelectBox } from "../../components/SelectBox";
 import DirectMessageProfile3 from "../../components/DirectMessageProfile3";
 import StoriesNotifications from "../../components/StoriesNotifications";
-
+import Navbar from "../../components/Navbar"; // Import the Navbar component
 const dropDownOptions = [
   { label: "Option1", value: "option1" },
   { label: "Option2", value: "option2" },
@@ -18,6 +18,9 @@ export default function SettingsPage() {
         <title>Christian Kevin S 2's Application2</title>
         <meta name="description" content="Web site created using create-react-app" />
       </Helmet>
+
+      <Navbar />
+
       <div className="flex flex-row justify-center w-full bg-gray-100">
         <div className="flex flex-row md:flex-col justify-between w-full md:gap-10">
           <div className="flex flex-col items-center justify-start p-[45px] md:p-5">

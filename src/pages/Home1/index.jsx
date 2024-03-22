@@ -8,7 +8,7 @@ import HomeCarddekstop3 from "../../components/HomeCarddekstop3";
 import HomeSeemorebutton from "../../components/HomeSeemorebutton";
 import HomeUser from "../../components/HomeUser";
 import HomeUser1 from "../../components/HomeUser1";
-
+import Navbar from "../../components/Navbar"; // Import the Navbar component
 export default function Home1Page() {
   return (
     <>
@@ -16,6 +16,8 @@ export default function Home1Page() {
         <title>Christian Kevin S 2's Application2</title>
         <meta name="description" content="Web site created using create-react-app" />
       </Helmet>
+
+      <Navbar />
 
       <div className="flex flex-row md:flex-col justify-between items-center w-full md:gap-10 overflow-auto bg-gray-100">
 

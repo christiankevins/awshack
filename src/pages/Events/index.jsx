@@ -6,6 +6,10 @@ import EventsCarddekstop from "../../components/EventsCarddekstop";
 import EventsCarddekstop1 from "../../components/EventsCarddekstop1";
 import EventsCarddekstop2 from "../../components/EventsCarddekstop2";
 import StoriesNotifications from "../../components/StoriesNotifications";
+import Navbar from "../../components/Navbar"; // Import the Navbar component
+import { Link } from 'react-router-dom';
+
+
 
 export default function EventsPage() {
   const [searchBarValue6, setSearchBarValue6] = React.useState("");
@@ -16,6 +20,9 @@ export default function EventsPage() {
         <title>Christian Kevin S 2's Application2</title>
         <meta name="description" content="Web site created using create-react-app" />
       </Helmet>
+
+      <Navbar />
+
       <div className="flex flex-row md:flex-col justify-between items-center w-full md:gap-10 bg-gray-100">
         <div className="flex flex-col items-center justify-start p-[45px] md:p-5">
           <Img

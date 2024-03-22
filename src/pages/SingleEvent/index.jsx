@@ -4,7 +4,7 @@ import { Button, Img, Text, Heading, GoogleMap } from "../../components";
 import HomeUser1 from "../../components/HomeUser1";
 import SingleVideoChipsmall from "../../components/SingleVideoChipsmall";
 import StoriesNotifications from "../../components/StoriesNotifications";
-
+import Navbar from "../../components/Navbar"; // Import the Navbar component
 export default function SingleEventPage() {
   return (
     <>
