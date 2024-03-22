@@ -58,7 +58,7 @@ export default function SettingsPage() {
             <Img
               src="images/uoft_logo.png"
               alt="standard_one"
-              className="h-[60px] w-[48px] mb-[886px]"
+              className="h-[62px] w-[48px] mb-[886px]"
             />
           </div>
           <div className="h-[1024px] w-[85%] md:w-full relative">

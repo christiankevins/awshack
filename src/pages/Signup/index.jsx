@@ -15,7 +15,7 @@ export default function SignupPage() {
           <div className="flex flex-col items-center justify-start w-[58%] md:w-full">
             <div className="h-[1024px] w-full relative">
               <Img
-                src="images/img_image.png"
+                src="images/uoft_build.jpg"
                 alt="image_one"
                 className="justify-center h-[1024px] w-full sm:w-full left-0 bottom-0 right-0 top-0 m-auto object-cover absolute"
               />
@@ -45,8 +45,16 @@ export default function SignupPage() {
                 alt="modaldesktop"
                 className="justify-center h-[1024px] left-0 bottom-0 right-0 top-0 m-auto absolute"
               />
+
+
+
+
               <div className="flex flex-col items-start justify-start w-[54%] bottom-[5%] right-0 left-0 m-auto absolute">
+                
                 <Img src="images/img_standard_collection.svg" alt="standard_one" className="h-[41px] w-[41px]" />
+                              <Heading size="xl" as="h2">
+                      MeetUofTMate
+                    </Heading>
                 <div className="flex flex-col items-start justify-start mt-[50px] gap-3.5">
                   <a href="#">
     

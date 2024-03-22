@@ -25,11 +25,11 @@ export default function EventsPage() {
 
       <div className="flex flex-row md:flex-col justify-between items-center w-full md:gap-10 bg-gray-100">
         <div className="flex flex-col items-center justify-start p-[45px] md:p-5">
-          <Img
-            src="images/img_standard_collection_white_a700.svg"
-            alt="standard_one"
-            className="h-[48px] w-[48px] mb-[886px]"
-          />
+        <Img
+              src="images/uoft_logo.png"
+              alt="standard_one"
+              className="h-[62px] w-[48px] mb-[886px]"
+            />
         </div>
         <div className="flex flex-col items-start justify-start w-[55%] md:w-full mt-10 md:mt-0">
           <div className="flex flex-row md:flex-col justify-start items-center gap-[13px] p-3 bg-white-A700 rounded-[12px]">
