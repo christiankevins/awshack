@@ -41,7 +41,7 @@ export default function SingleEventPage() {
                           />
                           <div className="flex flex-col items-start justify-start w-[65%] gap-1">
                             <Text as="p" className="!text-gray-900">
-                              Gunther Ackner
+                              IEEE UOFT
                             </Text>
                             <Text size="s" as="p">
                               3 days ago
@@ -89,7 +89,7 @@ export default function SingleEventPage() {
                           </Text>
                         </div>
                       </div>
-                      <div className="flex flex-row justify-start items-center w-[31%] gap-2.5">
+                      {/* <div className="flex flex-row justify-start items-center w-[31%] gap-2.5">
                         <Button color="gray_100" size="3xl" shape="round" className="w-[48px]">
                           <Img src="images/img_currency.svg" />
                         </Button>
@@ -99,7 +99,7 @@ export default function SingleEventPage() {
                             +30% Taxes
                           </Text>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="flex flex-col items-start justify-start w-full mt-[42px] gap-[19px]">
                       <Heading size="lg" as="h4">
@@ -161,7 +161,7 @@ export default function SingleEventPage() {
                           <Heading size="xl" as="h5" className="!text-white-A700">
                             Address
                           </Heading>
-                          <GoogleMap showMarker={false} className="h-[240px] w-full rounded-lg" />
+                          {/* <GoogleMap showMarker={false} className="h-[240px] w-full rounded-lg" /> */}
                           <div className="flex flex-row justify-between items-start w-full">
                             <div className="flex flex-row justify-start items-center w-[52%] gap-2.5">
                               <Button color="white_A700_33" size="3xl" shape="round" className="w-[48px]">
@@ -192,10 +192,10 @@ export default function SingleEventPage() {
                           Friends Interested
                         </Heading>
                         <div className="flex flex-col w-full gap-[30px]">
-                          <HomeUser1 one="images/img_avatar_4.png" className="flex flex-row justify-between w-full" />
+                          {/* <HomeUser1 one="images/img_avatar_4.png" className="flex flex-row justify-between w-full" />
                           <HomeUser1 one="images/img_avatar.png" className="flex flex-row justify-between w-full" />
                           <HomeUser1 one="images/img_avatar_7.png" className="flex flex-row justify-between w-full" />
-                          <HomeUser1 one="images/img_avatar_8.png" className="flex flex-row justify-between w-full" />
+                          <HomeUser1 one="images/img_avatar_8.png" className="flex flex-row justify-between w-full" /> */}
                           <div className="flex flex-row justify-between items-center w-full">
                             <div className="flex flex-row justify-start items-center gap-2.5">
                               <Img
@@ -204,7 +204,7 @@ export default function SingleEventPage() {
                                 className="w-[38px] md:h-auto object-cover rounded-[12px]"
                               />
                               <Text as="p" className="!text-white-A700">
-                                MadeInAmerica
+                                Kimberly Michela
                               </Text>
                             </div>
                             <Button color="green_400" className="w-[28px] rounded-lg">

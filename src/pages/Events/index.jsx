@@ -30,7 +30,7 @@ export default function EventsPage() {
               size="sm"
               shape="square"
               name="search"
-              placeholder="Search in social…"
+              placeholder="Search event…"
               value={searchBarValue6}
               onChange={(e) => setSearchBarValue6(e)}
               prefix={<Img src="images/img_icon_search.svg" alt="Icon/Search" className="cursor-pointer" />}
@@ -83,15 +83,15 @@ export default function EventsPage() {
             <div className="flex flex-col items-center justify-start w-full">
               <div className="justify-center w-full gap-[30px] grid-cols-2 md:grid-cols-1 md:gap-5 grid">
                 <EventsCarddekstop className="flex flex-col items-center justify-start w-full" />
-                <EventsCarddekstop1 className="flex flex-col items-center justify-start w-full" />
-                <EventsCarddekstop
+                {/* <EventsCarddekstop1 className="flex flex-col items-center justify-start w-full" /> */}
+                {/* <EventsCarddekstop
                   imageOne="images/img_image_26.png"
                   className="flex flex-col items-center justify-start w-full"
                 />
                 <EventsCarddekstop
                   imageOne="images/img_image_27.png"
                   className="flex flex-col items-center justify-start w-full"
-                />
+                /> */}
               </div>
             </div>
           </div>
