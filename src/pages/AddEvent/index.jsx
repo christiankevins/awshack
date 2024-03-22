@@ -32,17 +32,6 @@ export default function SettingsPage() {
     }));
   };
 
-  const handleSaveChanges = () => {
-    // Serialize formData to JSON
-    const jsonData = JSON.stringify(formData);
-
-    // Write jsonData to a file
-    // Example: writeToFile(jsonData);
-    console.log(jsonData); // For demonstration purposes, log the JSON data
-  };
-
-
-
   return (
     <>
       <Helmet>

@@ -88,7 +88,7 @@ export default function EventsPage() {
           </div>
           <Button color="light_blue_200" size="7xl" className="w-full sm:px-5 font-bold rounded-[29px]">
           <Link to="/AddEvent">
-            Add Study Group
+            Add Events
             </Link>
           </Button>
           <div className="flex flex-col items-center justify-start w-full mt-[42px] pb-[30px] sm:pb-5">

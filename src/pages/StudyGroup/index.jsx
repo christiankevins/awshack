@@ -5,6 +5,9 @@ import { Img, Heading, Input, Button } from "../../components";
 import EventsCarddekstop from "../../components/EventsCarddekstop";
 import EventsCarddekstop1 from "../../components/EventsCarddekstop1";
 import EventsCarddekstop2 from "../../components/EventsCarddekstop2";
+import StudentCarddekstop from "../../components/EventsCarddekstop";
+import StudentCarddekstop1 from "../../components/EventsCarddekstop1";
+import StudentCarddekstop2 from "../../components/EventsCarddekstop2";
 import StoriesNotifications from "../../components/StoriesNotifications";
 import Navbar from "../../components/Navbar"; // Import the Navbar component
 import { Link } from 'react-router-dom';
@@ -96,16 +99,9 @@ export default function EventsPage() {
           <div className="flex flex-col items-center justify-start w-full mt-[42px] pb-[30px] sm:pb-5">
             <div className="flex flex-col items-center justify-start w-full">
               <div className="justify-center w-full gap-[30px] grid-cols-2 md:grid-cols-1 md:gap-5 grid">
-                <EventsCarddekstop className="flex flex-col items-center justify-start w-full" />
-                <EventsCarddekstop1 className="flex flex-col items-center justify-start w-full" />
-                <EventsCarddekstop
-                  imageOne="images/img_image_26.png"
-                  className="flex flex-col items-center justify-start w-full"
-                />
-                <EventsCarddekstop
-                  imageOne="images/img_image_27.png"
-                  className="flex flex-col items-center justify-start w-full"
-                />
+                <StudentCarddekstop className="flex flex-col items-center justify-start w-full" />
+                <StudentCarddekstop className="flex flex-col items-center justify-start w-full" />
+
               </div>
             </div>
           </div>
@@ -126,7 +122,14 @@ export default function EventsPage() {
                     alt="avatar_one"
                     className="w-[48px] md:h-auto object-cover rounded-[12px]"
                   />
-                </div>
+                </div
+                
+                
+                
+                
+                
+                
+                >
                 <div className="flex flex-col items-start justify-start w-[97%] md:w-full mb-[45px] pt-[3px] gap-[39px]">
                   <Heading size="xl" as="h2" className="!text-white-A700">
                     My Next Events

@@ -2,11 +2,11 @@ import React from "react";
 import { Button, Img, Text, Heading } from "./..";
 
 export default function EventsCarddekstop1({
-  ten = "10",
-  weekday = "Wednesday",
-  decembercounter = "December, 2019",
-  title = "2019 DUB Show at Los Angeles Auto Show",
-  time = "Starts at 9:00am in Los Angeles",
+  ten = "22",
+  weekday = "Friday",
+  decembercounter = "March, 2024",
+  title = "Hack the Student Life ",
+  time = "Starts at 8:00am",
   interested = "Interested",
   nine = "+9",
   ...props
@@ -16,7 +16,7 @@ export default function EventsCarddekstop1({
       <div className="flex flex-col items-center justify-center w-full p-[29px] sm:p-5 bg-white-A700 rounded-[12px]">
         <div className="flex flex-col items-start justify-start w-full md:px-5 max-w-[321px]">
           <Img
-            src="images/img_image_25.png"
+            src="images/hack.jpeg"
             alt="image_one"
             className="w-full md:h-[180px] ml-px md:ml-0 object-cover rounded-lg"
           />

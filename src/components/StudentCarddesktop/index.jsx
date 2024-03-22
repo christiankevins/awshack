@@ -1,13 +1,13 @@
 import React from "react";
-import { Button, Img, Text, Heading } from "./..";
+import { Button, Img, Text, Heading } from "..";
 
-export default function EventsCarddekstop({
-  imageOne = "images/uoft_yoga.jpg",
+export default function StudentCarddekstop({
+  imageOne = "images/csc209.png",
   ten = "22",
   weekday = "Friday",
   decembercounter = "March, 2024",
-  title = "Yoga Mindfullness",
-  time = "Starts at 9:00am",
+  title = "CSC209",
+  time = "9:00am - 10:00am, BA201",
   interested = "Interested",
   nine = "+9",
   ...props
